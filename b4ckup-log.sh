@@ -1,5 +1,5 @@
 #!/bin/bash
-source /home/eza/Documents/b4ckup/.conf
+source /home/<user>/Documents/b4ckup/.conf
 
 function addLog(){
   SQL="INSERT INTO log (file_name, dir, status) VALUES ('$1', '$2', '$3');"

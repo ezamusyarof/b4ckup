@@ -1,10 +1,10 @@
 #!/bin/bash
-source /home/eza/Documents/b4ckup/.conf
-source /home/eza/Documents/b4ckup/b4ckup-log.sh > /dev/null
+source /home/<user>/Documents/b4ckup/.conf
+source /home/<user>/Documents/b4ckup/b4ckup-log.sh > /dev/null
 
 # Backup_Information
 ID=$(($(getLogID)+1))                               # id untuk log
-# DIR=$1                                              # directory data yg mau di backup   (/home/hary)
+# DIR=$1                                            # directory data yg mau di backup   (/home/hary)
 DIR=$1                                              # directory data yg mau di backup   (/home/hary)
 DIR_DEST=$(basename "$DIR")                         # ambil nama folder yg mau dibackup (hary)
 FILE_NAME="$(date +%y%m%d-%H%M%S)-$ID-$DIR_DEST"    # bikin nama file                   (230715-140124-1-hary)
@@ -22,8 +22,8 @@ Status             : "
 output=$(cd $DIR/.. 2>&1)                                       # Mengubah direktori ke direktori tujuan
 if [ $? -eq 0 ];then
     cd $DIR/..
-    zip $FILE_NAME.zip $DIR_DEST/* 2>&1          # Men-zip folder tujuan
-    mv $FILE_NAME.zip $FILE_LOCATION/archieve                    # Memindahkan hasil zip ke lokasi penyimpanan
+    zip $FILE_NAME.zip $DIR_DEST/* 2>&1                         # Men-zip folder tujuan
+    mv $FILE_NAME.zip $FILE_LOCATION/archieve                   # Memindahkan hasil zip ke lokasi penyimpanan
 
     # Kirim file backup ke telegram
     output=$(curl -F chat_id="$ID_CHAT" -F document=@"$FILE_PATH" "https://api.telegram.org/bot$BOT_TOKEN/sendDocument")
