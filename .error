@@ -1,0 +1,19 @@
+2023-07-15 21:37:49 Error: /home/eza/Documents/b4ckup/b4ckup.sh: line 21: cd: /home/nurl/..: No such file or directory
+2023-07-15 21:38:13 Error: /home/eza/Documents/b4ckup/b4ckup.sh: line 21: cd: /home/nurl/..: No such file or directory
+2023-07-15 21:45:05 Error: /home/eza/Documents/b4ckup/b4ckup.sh: line 21: cd: /home/yazmi/..: No such file or directory
+2023-07-15 21:45:40 Error: tes /home/eza/Documents/b4ckup/b4ckup.sh: line 21: cd: /home/yazmi/..: No such file or directory
+2023-07-15 21:58:53 Error: /home/eza/Documents/b4ckup/b4ckup.sh: line 21: cd: /home/layl/..: No such file or directory
+2023-07-15 21:59:41 Error: /home/eza/Documents/b4ckup/b4ckup.sh: line 21: cd: /home/layl/..: No such file or directory 
+2023-07-16 07:39:52 Error: ./b4ckup.sh: line 21: cd: /home/eza/Documents/file4/..: No such file or directory
+2023-07-16 07:43:18 Error: {"ok":false,"error_code":400,"description":"Bad Request: chat not found"}
+2023-07-16 07:44:48 Error: ./b4ckup.sh: line 21: cd: /home/eza/Documents/files100/..: No such file or directory
+2023-07-16 07:45:35 Error: ./b4ckup.sh: line 21: cd: /home/eza/Documents/files100/..: No such file or directory
+2023-07-16 07:47:09 Error: ./b4ckup.sh: line 21: cd: /home/eza/Documents/files100/..: No such file or directory
+2023-07-16 07:47:34 Error: ./b4ckup.sh: line 21: cd: /home/eza/Documents/files100/..: No such file or directory
+2023-07-16 07:48:38 Error: ./b4ckup.sh: line 21: cd: /home/eza/Documents/files12/..: No such file or directory
+2023-07-16 07:55:01 Error: /home/eza/Documents/b4ckup//b4ckup.sh: line 21: cd: home/nurul/..: No such file or directory
+2023-07-16 07:55:10 Error: /home/eza/Documents/b4ckup//b4ckup.sh: line 21: cd: home/nurul/..: No such file or directory
+2023-07-16 07:59:11 Error: ./b4ckup.sh: line 21: cd: home/layla/..: No such file or directory
+2023-07-16 08:24:37 Error: ./b4ckup.sh: line 21: cd: /home/hari/..: No such file or directory
+2023-07-16 08:28:07 Error: ./b4ckup.sh: line 21: cd: /home/kevin/..: No such file or directory
+2023-07-16 08:31:18 Error: {"ok":false,"error_code":401,"description":"Unauthorized"}
