@@ -1,5 +1,5 @@
 #!/bin/bash
-source /home/eza/Documents/b4ckup/.conf
+source /home/<user>/Documents/b4ckup/.conf
 
 if [ "`whoami`" = "root" ]
 then
